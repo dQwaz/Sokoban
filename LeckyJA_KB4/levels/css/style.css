@@ -1,0 +1,131 @@
+body, header, h1, h4, canvas, footer, button, img, div, select, option {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+  
+  body  {
+    background-color: #87cefa;
+  }
+  
+  header {
+    font-family: 'Raleway', sans-serif;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    width: 80%;
+    height: 100px;
+    border-radius: 6px;
+  
+    text-align: center;
+  }
+  
+  header > h1 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  
+  .middle-container {
+    font-family: 'Raleway', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .middle-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  .middle-container p {
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+  
+  .instructions {
+    width: 480px;
+    max-width: 100%;
+    margin-top: 20px;
+    background-color: #ffc962;
+    border-radius: 6px;
+  }
+  
+  canvas {
+    margin-top: 20px;
+    display: block;
+  }
+  
+  .bonus {
+    margin-top: 20px;
+    width: 480px;
+    background-color: #DDFCAD;
+    border-radius: 6px;
+  }
+  
+  .bonus h2 {
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  #reset-level, #skip-level, .reset-game {
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 20px 35px;
+    width: 400px;
+    height: 70px;
+    background-color: #FF8784;
+    border: 2px dashed #ffffff;
+    border-radius: 6px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  #reset-level:hover, #skip-level:hover, .reset-game:hover {
+    background-color: #6CDB7F;
+  }
+  
+  #reset-level:focus, #skip-level:focus, .reset-game:focus {
+    outline: none;
+  }
+  
+  select {
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    text-align-last:center;
+    border: 2px solid red;
+  }
+  
+  #dialog {
+    width: 500px;
+    margin: 10px auto;
+    border-radius: 6px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  #dialog h3 {
+    padding-top: 20px;
+    font-size: 36px;
+  }
+  
+  .no-close .ui-dialog-titlebar-close {
+    display: none;
+  }
+  
+  footer {
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 6px;
+    background-color: #FFFFCC;
+    text-align: center;
+  }
+  
+  footer img {
+    padding: 20px 20px;
+  }
